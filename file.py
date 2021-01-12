@@ -13,7 +13,7 @@ def moving_images( image_name ):
 	# moving images
 
 	name, extention = path.splitext(image_name)
-	# get name and extention
+	# get name and extension
 	
 	try:
 		mkdir(converted_images_folder)
